@@ -1,6 +1,6 @@
 import home from "./pages/home/index.js"
-import sentimentos from "./pages/sentimentos/index.js"
-import filmes from "./pages/filmes/index.js"
+import feeling from "./pages/feeling/index.js"
+import movie from "./pages/movie/index.js"
 
 const main = document.querySelector("#root");
 
@@ -13,11 +13,11 @@ window.addEventListener("hashchange", () => {
         case "":
             main.appendChild(home());
             break;
-            case "#sentimentos":
-                main.appendChild(sentimentos());
+            case "#feeling":
+                main.appendChild(feeling());
             break;
-            case "#filmes":
-                main.appendChild(filmes());
+            case "#movie":
+                main.appendChild(movie());
             break;
             default:
                     main.appendChild(home());
