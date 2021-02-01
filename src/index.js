@@ -5,11 +5,12 @@ import filmes from "./pages/filmes/index.js"
 
 const main = document.querySelector("#root");
 
+
 const init = () => {
 window.addEventListener("hashchange", () => {
     main.innerHTML = ""
     switch (window.location.hash){
-        case " ":
+        case "":
             main.appendChild(home());
             break;
             case "#sentimentos":
@@ -33,4 +34,4 @@ window.addEventListener("load", () => {
     main.appendChild(home());
     init()
 
-})
+ })
