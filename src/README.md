@@ -2,7 +2,11 @@
 
 ![Imagem!]()
 
+<<<<<<< HEAD
 Sabe quando a gente quer ver um filminho depois de um dia cançativo mas acaba demorando meia hora na 
+=======
+Uma aplicação onde 
+>>>>>>> main
 
 ---
 ## Índice
@@ -12,6 +16,7 @@ Sabe quando a gente quer ver um filminho depois de um dia cançativo mas acaba d
 - [3. Processo criativo](#3-processo-criativo)
 - [4. Desenvolvimento](#4-desenvolvimento)
 - [5. Funcionamento](#5-funcionamento)
+<<<<<<< HEAD
 
 ---
 ## 1. Introdução
@@ -107,3 +112,5 @@ Após, a usuária acessa sua timeline onde pode criar posts, editar e deletar o 
 ## Acesse aqui a rede social [[Ada]](https://social-networl-4387c.web.app/login)
 
 ### Desenvolvido por [Beatriz Penalva](https://github.com/beatrizpenalva), [Gabrielle Almeida](https://github.com/GabrielleAlmeida) e [Julia Terin](https://github.com/JuliaTerin) através do Projeto da [Laboratoria](https://www.laboratoria.la/).
+=======
+>>>>>>> main
