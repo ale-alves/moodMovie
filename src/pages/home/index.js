@@ -7,7 +7,7 @@ export default () => {
 
    
           
-         <a href="./#sentimentos"> <button id="comecar" class="btn-comecar" >Começar</button></a>
+         <a href="./#sentimentos"> <button id="start" class="btn-start" >Começar</button></a>
         
          
          <footer><img class="logo-github" src="img/github.png" alt="logo github" /> Desenvolvido por 
