@@ -1,116 +1,118 @@
 # MoodMovie
 
-![Imagem!]()
+![Imagem!](meme)
 
-<<<<<<< HEAD
-Sabe quando a gente quer ver um filminho depois de um dia cançativo mas acaba demorando meia hora na 
-=======
-Uma aplicação onde 
->>>>>>> main
+Cansada de procurar bons filmes né minha filha? 
 
 ---
 ## Índice
 
 - [1. Introdução](#1-introdução)
 - [2. Planejamento e Organização](#2-planejamento-e-organização)
-- [3. Processo criativo](#3-processo-criativo)
+- [3. Desing Sprint](#3-desing-sprint)
 - [4. Desenvolvimento](#4-desenvolvimento)
 - [5. Funcionamento](#5-funcionamento)
-<<<<<<< HEAD
 
 ---
 ## 1. Introdução
 
-Aplicação de entretenimento desenvolvida em conjunto, pelas alunas/futuras Desenvolvedoras Front-end [Alessandra](https://github.com/ale-alve), [Carina](https://github.com/carinarocha), [Caroline](https://github.com/CarolineSCosta), [Julia](https://github.com/JuliaTerin), [Juliana](https://github.com/julianaads) e [Karine](https://github.com/karinesouza)durante o Bootcamp Laboratória - Turma SAP005.
+A partir do projeto proposto pela Laboratória, o Midterm Hackathon. Desenvolvemos em equipe uma aplicação de entretenimento, através do consumo de API no prazo de dois dias. 
+Para o desenvolvimento utilizamos como estratégia pair programing, code review e sub-divisão de tarefas.
 
 ### Sobre 
 
+![Imagem!](logo)
+
+A aplicação MoodMovie tem como intuito facilitar a escolha de filmes do usuário através do seu humor. 
 
 ---
 ## 2. Planejamento e Organização
 
-O planejamento e organização do projeto foi feito com método Kanban, utilizando o [Trello](https://trello.com/) como ferramenta. Veja nosso quadro [aqui](https://trello.com/b/Pq1QRovj/midterm-hackathon)!
+O planejamento e organização do projeto foi feito com método Kanban, utilizando o [Trello](https://trello.com/). 
+
+![Imagem!](TRELLO)
 
 
-#### Experiência de usuário
-Para desenvolver este aplicativo, alguns métodos de UX foram incorporados ao processo:
-- Protopersonas
-- Protopersonas validadas com entrevistas
-- Histórias de usuários
+## 3. Design Sprint
 
-### Personas
+Durante o processo de Design Sprint desenvolvemos o produto em 4 dias.
 
-  ![Imagem!](./src/img/protopersonas.jpg)
+### Investigação e descoberta
 
-### Histórias de usuários
+Realizamos um brandstorm e apartir disso criamos nossas protopersonas:
 
-Com base nas personas validadas partimos para as histórias de usuários. Geramos quatro histórias, cada uma contemplando necessidades identificadas através das três entrevistas realizadas, assim, gerando etapas de trabalho com as definições de pronto.
-As histórias são:
+![Imagem!](personas) 
 
-- História 1: "Eu como usuária, desejo ter acesso à aplicação por ser uma mulher com interesse no mundo da tecnologia"
-- História 2: "Eu como usuária, desejo criar um perfil para ter acesso a rede de mulheres interessadas em estudar tecnologia"
-- História 3: "Eu como usuária, desejo publicar textos para interagir com a rede"
-- História 4: "Eu como usuária, desejo visualizar os posts das demais usuárias e poder curtir e responder para interagir com a rede"
+Diante disso, foi feita a confirmação através de um formulário de pesquisa com os usuários. 
+Realizamos o benchmark, analisando possíveis concorrentes, identificando padrões, pontos positivos e negativos.
 
-Você pode acessar nossas histórias de usuário [1](https://trello.com/c/5bjq1Ybp/15-hist%C3%B3ria-1-eu-como-usu%C3%A1ria-desejo-ter-acesso-%C3%A0-aplica%C3%A7%C3%A3o-por-ser-uma-mulher-com-interesse-no-mundo-da-tecnologia), [2](https://trello.com/c/tn2pc25i/16-hist%C3%B3ria-2-eu-como-usu%C3%A1ria-desejo-criar-um-perfil-para-ter-acesso-a-rede-de-mulheres-interessadas-em-estudar-tecnologia), [3](https://trello.com/c/fmmifLKo/36-hist%C3%B3ria-3-eu-como-usu%C3%A1ria-desejo-publicar-textos-para-interagir-com-a-rede) e [4](https://trello.com/c/CYSdJ3aL/31-hist%C3%B3ria-4-eu-como-usu%C3%A1ria-desejo-visualizar-os-posts-das-demais-usu%C3%A1rias-e-poder-curtir-e-responder-para-interagir-com-a-rede) nos links com os critérios de aceitação e definições de pronto. 
+### Síntese e definição
 
----
-## 3. Processo criativo
+Utilizando os dados coletados e gerados na fase  de investigação e descoberta, fizemos um mapa de afinidades usando o [Miro](https://miro.com/app/). Onde identificamos os problemas dos nossos usuários.
 
-### Marca
+❌ Problema:
 
-[Ada]
-Como já dito, o nome da marca foi baseada na Condessa de Lovelace, seu nome é envolto por colchetes, que na linguagem Javascript são utilizados na declaração de arrays, usada para armazenar vários valores em uma única variável, que podem ser acessados juntos ou separadamente. Seu uso é uma alegoria a junção de pessoas e seus conhecimentos num só lugar, que pode ser acessado para ajudar, aprender ou ambos.
+ <i>O usuário precisa economizar o tempo que ele gasta escolhendo um filme nas plataformas de streaming.</i>
 
-### Cores
+Com isso elaboramos um novo formulário de pesquisa para revalidar as personas e mapear as soluções.
 
-A paleta de cores teve como base a cor laranja, na psicologia das cores laranja transmite alegria e confiança, sendo uma cor vibrante que estimula ação, apetite e a socialização. É uma cor de simbologia neutra, evitando o uso de cores estigmatizadas ao feminino. 
+💡 Solução:
+
+<i> Indicação de filmes através do humor do usuário, facilitando assim sua busca.</i>
+
+Baseado nisso, produzimos nosso Canvas.
+
+![Imagem!](src/img/canvas.png) 
+
+Definimos as funcionalidades do nosso MVP, onde o usuário acessa a página de entretenimento, no qual ele pode selecionar o seu humor e assim receber indicações de filmes. 
+
+### Ideação
  
-  ![Imagem!](./src/img/paleta.jpg)
+Compartilhamos nossas ideias em rascunhos, nossos protótipos de baixa fidelidade. Onde definimos as funcionalidades da aplicação, gerando assim o fluxo do usuário.
 
-### Protótipo
+![Imagem!](protótipos de baixa fidelidade) 
 
-O processo criativo se deu inicialmente com o desenvolvimento do protótipo criado com a ferramente [Figma](https://www.figma.com/) em mobile first, após pesquisa de cores e estilo.
+![Imagem!](floxograma) 
 
-  ![Imagem!](./src/img/prot_mobile.jpg)
-  ![Imagem!](./src/img/prot_loginDesktop.jpg)
-  ![Imagem!](./src/img/prot_perfiltimelineDesktop.jpg)
 
----
+### Prototipagem
+
+Nessa etapa foi concretizado o desenvolvimento do desing da aplicação. 
+O processo criativo inicialmente foi inspirado pelo conceito de emoções, sinalizados pelos usuários durante as pesquisas, e sua relação com as cores, tendo como base o filme "Divertidamente". 
+Com isso, decidimos nossa paleta de cores:
+
+![Imagem!](paleta de cores)
+
+O protótipo foi criado com o [Figma](https://www.figma.com/) em mobile first, após pesquisa de cores e estilo.
+
+  ![Imagem!](prototipo-figma)
+
+Durante a prototipagem foi tomada a decisão de linguagem inclusiva nas emoções, utilizando o sufixo "de". No qual, não emprega definição de gênero. 
+
+
+### Testes com usuários
+
+Foram entrevistados 5 usuários, que utilizaram a versão do protótipo de alta fidelidade para testar o fluxo de tarefas. 
+
+
+👍 Todos os usuários apresentaram facilidade ao executar o fluxo da aplicação e acharam bem intuitivo.
+
+👎 Todos os usuários clicaram no card ao invés do icone "+", para obter mais informações do filme.
+
+Levando em consideração os feesbacks dos usuários, foram feitas as devidas alterações.
+
+
 ## 4. Desenvolvimento
 
-O desenvolvimento do projeto foi executado em quatro sprints. A primeira foi voltada para o trabalho de UX e UI, onde o tema da rede, o layout, as decisões conceituais e as pesquisas de usuários foram realizados. As demais sprints tiveram como foco o desenvolvimento do código, começando com o login que possibilitasse ao usuário o acesso a rede com sua conta do [Google](https://www.google.com/intl/pt-BR/account/about/), [Facebook](www.facebook.com), [GitHub](GitHubgithub.com) ou um novo registro com validação de email e criação de senha de acesso. Após o acesso a timeline foi desenvolvida contendo áreas de criação de posts, com possibilidade de edição, exclusão e curtida. 
-A aplicação foi desenvolvida como um [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica), se utilizando do [Firebase](https://firebase.google.com/) e suas ferramentas. A responsividade foi feita em conjunto com a execução do layout da página, e a interface hospedada usando o [Firebase Hosting](https://firebase.google.com/docs/hosting).
+A aplicação foi desenvolvida como um [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica), utilizando a API [Netflix Roulette](https://apilist.fun/api/netflix-roulette), mediante disso foi realizada o Mock com uma seleção de informações.
 
+  ![Imagem!](gif da nossá pag)
 
-### Tecnológias
+<b>E aí minha filha, como está seu humor hoje? Terste nossa aplicação [aqui]()</b>
 
-Neste projeto foram usados:
+  ![Imagem!](git divertidamente/meme)
 
-<ul>
-<li>CSS3</li>
-<li>HTML5</li>
-<li>Vanilla JavaScript</li>
-<li>Firebase Authentication</li>
-<li>Cloud Firestore</li>
-<li>Visual Studio Code com extenção Node-js</li>
-</ul>
+## 5. Desenvolvedoras
 
+Desenvolvido por [Alessandra](https://github.com/ale-alve), [Carina](https://github.com/carinarocha), [Caroline](https://github.com/CarolineSCosta), [Julia](https://github.com/JuliaTerin), [Juliana](https://github.com/julianaads) e [Karine](https://github.com/karinesouza).
 
-## 5. Funcionamento 
-
-A rede social possibilita que mediante o acesso a usuária seja direcionada a sua timeline, onde possa postar, visualizar os posts das demais usuárias e curti-los.
-
-O fluxograma a seguir exemplifica o funcionamento de acesso à aplicação:
-
-  ![Imagem!](./src/img/fluxograma.jpeg)
-
-Após, a usuária acessa sua timeline onde pode criar posts, editar e deletar o mesmo, ver o post das demais usuárias e os curtir, assim como também visualizar o número de curtidas que recebeu em seus posts.
-
-
-
-## Acesse aqui a rede social [[Ada]](https://social-networl-4387c.web.app/login)
-
-### Desenvolvido por [Beatriz Penalva](https://github.com/beatrizpenalva), [Gabrielle Almeida](https://github.com/GabrielleAlmeida) e [Julia Terin](https://github.com/JuliaTerin) através do Projeto da [Laboratoria](https://www.laboratoria.la/).
-=======
->>>>>>> main
