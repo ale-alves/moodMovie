@@ -1,189 +1,101 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
-header{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
-.logo{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size:  25px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    z-index: 1;
-}
 
-.logo-background{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    animation: expand-out 6s 1ms linear infinite normal forwards;
-}
-@keyframes expand-out{
-    0%{
-        transform: translateX(-100%);
-        width: 0;
+.titulo {
+        text-align: center;
+        margin-top:8em;
     }
-    50%{
-        width:100%;
+  
+  button {
+      cursor: pointer;
+      border: none;
+      margin-top: 0.6em;
+      align-items: center;
+      margin-top: 2em;
+      margin-left: 8em;
+      height: 2.6em;
+  }
+  
+  .btn-comecar {
+      background-color: #47EBEB;
+      width: 35vw;
+  }
+  
+  footer {
+      width: 100vw;
+      margin-top: 10em;
+      padding: 0.5em;
+      text-align: justify;
     }
     
-    100%{
-        transform: translateX(50%);
-        opacity: 0;
+    footer a {
+      cursor: pointer;
     }
-}
+  
+  .logo-github {
+      width:1em;
+      height:1em;
+  }
+  
+  .btn-estressade {
+      background-color: #EB4747;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-inspirade {
+      background-color: #F28E45;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-feliz {
+      background-color: #FBFE54;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-entediade {
+      background-color: #47EB70;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-cor-partido {
+      background-color: #47EBEB;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-triste {
+      background-color: #4770EB;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-sensivel {
+      background-color: #9947EB;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-apaixonade {
+      background-color: #EB47C2;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  
+  .title{
+      text-align: center;
+      margin-top:2em;
+  }
+  
+  .title-movies {
+      text-align: center;
+      margin-top:2em;
+  }
 
-.logo-background-red{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #EB4747;
-}
-
-.logo-background-orange{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #F28E45;
-}
-.logo-background-yellow{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #FBFE54;
-}
-.logo-background-green{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #47EB70;
-}
-.logo-background-royalBlue{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #47EBEB;
-}
-.logo-background-blue{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #4770eb;
-}
-.logo-background-purple{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: 14px;
-    background-color: #9947eb;
-}
-.logo-background-pink{
-    width: 30px;
-    height: 122px;
-    margin-top: -5px;
-    margin-right: -2px;
-    background-color: #eb47c2;
-}
-main{
-    width: 100%;
-    height: 100vh;
-    background-color: khaki;
-}
-.wrapper-content{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.wrapper-content-slogan{
-    padding: 10%;
-    font-size: 20px;
-    text-align: center;
-}
-.wrapper-content-button{
-    margin-top: -20px;
-    width: 131px;
-    height: 33px;
-}
-.logo-github{
-    width: 16px;
-    height: 16px;
-}
-
-button {
-    cursor: pointer;
-    border: none;
-    margin-top: 0.6em;
-    align-items: center;
-    margin-top: 2em;
-    margin-left: 8em;
-    height: 2.6em;
-}
-
-.btn-start {
-    background-color: #47EBEB;
-    width: 35vw;
-}
-
-.btn-stressed {
-    background-color: #EB4747;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-inspired {
-    background-color: #F28E45;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-happy {
-    background-color: #FBFE54;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-bored {
-    background-color: #47EB70;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-heartbroken {
-    background-color: #47EBEB;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-sad {
-    background-color: #4770EB;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-sensitive {
-    background-color: #9947EB;
-    width: 55vw;
-    margin-left: 5em;
-}
-
-.btn-in-love {
-    background-color: #EB47C2;
-    width: 55vw;
-    margin-left: 5em;
-}
