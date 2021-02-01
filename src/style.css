@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+ .titulo {
+        text-align: center;
+        margin-top:8em;
+    }
+  
+  button {
+      cursor: pointer;
+      border: none;
+      margin-top: 0.6em;
+      align-items: center;
+      margin-top: 2em;
+      margin-left: 8em;
+      height: 2.6em;
+  }
+  
+  .btn-comecar {
+      background-color: #47EBEB;
+      width: 35vw;
+  }
+  
+  footer {
+      width: 100vw;
+      margin-top: 10em;
+      padding: 0.5em;
+      text-align: justify;
+    }
+    
+    footer a {
+      cursor: pointer;
+    }
+  
+  .logo-github {
+      width:1em;
+      height:1em;
+  }
+  
+  .btn-estressade {
+      background-color: #EB4747;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-inspirade {
+      background-color: #F28E45;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-feliz {
+      background-color: #FBFE54;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-entediade {
+      background-color: #47EB70;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-cor-partido {
+      background-color: #47EBEB;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-triste {
+      background-color: #4770EB;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-sensivel {
+      background-color: #9947EB;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  .btn-apaixonade {
+      background-color: #EB47C2;
+      width: 55vw;
+      margin-left: 5em;
+  }
+  
+  
+  .title{
+      text-align: center;
+      margin-top:2em;
+  }
+  
+  .title-movies {
+      text-align: center;
+      margin-top:2em;
+  }
