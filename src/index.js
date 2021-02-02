@@ -4,30 +4,33 @@ import movie from "./pages/movie/index.js"
 
 const main = document.querySelector("#root");
 
-
 const init = () => {
 
-window.addEventListener("hashchange", () => {
+window.addEventListener("hashchange", async () => {
     main.innerHTML = ""
-    switch (window.location.hash){
+    const queryParamInit = window.location.hash.indexOf('?')
+    const path = queryParamInit >= 0 ? window.location.hash.substring(0, queryParamInit) : window.location.hash
+    switch (path){
         case "":
             main.appendChild(home());
             break;
-            case "#feeling":
-                main.appendChild(feeling());
+          case "#feeling":
+            main.appendChild(feeling());
             break;
-            case "#movie":
-                main.appendChild(movie());
+          case "#movie":
+            main.appendChild(await movie());
             break;
-            default:
-                    main.appendChild(home());
+          default:
+            main.appendChild(home());
     }
+
 })
+
 }
 
 window.addEventListener("load", () => {
+
     main.appendChild(home());
     init()
- })
 
- 
+ })
