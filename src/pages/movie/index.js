@@ -37,9 +37,9 @@ const showingMoviesList = (movies) => {
         
         moviesList += `
         <div class="movie-details" id="${movie.id}">
-            <img src = ${movie.poster} class = "movie-poster" alt = ${movie.title}/>
-            <p>${movie.imdb_rating}</p>
-            <p>${movie.title}</p>
+        <img class="movie-details-img" src = ${movie.poster} class = "movie-poster" alt = ${movie.title}/>
+         <p class="movie-details-rating"><img class="movie-details-stars" src="img/star.png" alt="rating-star">${movie.imdb_rating}</p>
+        <p class="movie-details-title">${movie.title}</p>
         </div>
         `
     }
