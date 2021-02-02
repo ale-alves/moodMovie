@@ -3,4 +3,4 @@ export const getMovies = async (genre) => {
     const json = await response.json();
     return json
         
-    };
+};
