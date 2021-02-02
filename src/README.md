@@ -95,11 +95,11 @@ Durante a prototipagem foi tomada a decisão de linguagem inclusiva nas emoçõe
 Foram entrevistados 5 usuários, que utilizaram a versão do protótipo de alta fidelidade para testar o fluxo de tarefas. 
 
 
-👍 Todos os usuários apresentaram facilidade ao executar o fluxo da aplicação e acharam bem intuitivo.
+👍 Os usuários apresentaram facilidade ao executar o fluxo da aplicação e acharam bem intuitivo.
 
-👎 Todos os usuários clicaram no card ao invés do icone "+", para obter mais informações do filme.
+👎 Os usuários clicaram no card ao invés do icone "+", para obter mais informações do filme.
 
-Levando em consideração os feesbacks dos usuários, foram feitas as devidas alterações.
+Levando em consideração os feedbacks dos usuários, foram feitas as devidas alterações.
 
 
 ## 4. Desenvolvimento
@@ -108,7 +108,7 @@ A aplicação foi desenvolvida como um [Single Page Application (SPA)](https://p
 
   ![Imagem!](gif da nossá pag)
 
-<b>E aí minha filha, como está seu humor hoje? Terste nossa aplicação [aqui]()</b>
+<b>E aí minha filha, como está seu humor hoje? Teste nossa aplicação [aqui]()</b>
 
   ![Imagem!](http://gph.is/1elEEsp)
 
