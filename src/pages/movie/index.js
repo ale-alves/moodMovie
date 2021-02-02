@@ -1,7 +1,7 @@
 import { getMovies } from "../../services/index.js"
 
 export default async () => {
-    const container = document.createElement('div');
+    const container = document.createElement('section');
 
     let genres = window.location.hash.substring(window.location.hash.indexOf('?genre=') + '?genre='.length).split(',')
     
@@ -23,11 +23,6 @@ export default async () => {
     
     container.innerHTML += child;
     
-    let allMoviesDiv = container.querySelectorAll('.movie-details')
-    
-    for(let movieDiv of allMoviesDiv) {
-        movieDiv.addEventListener('click', redirectToMovie)
-    }
     return container
 }
 
@@ -36,22 +31,22 @@ const showingMoviesList = (movies) => {
     for (let movie of movies) {
         
         moviesList += `
-        <div class="movie-details" id="${movie.id}">
-            <img src = ${movie.poster} class = "movie-poster" alt = ${movie.title}/>
-            <p>${movie.imdb_rating}</p>
-            <p>${movie.title}</p>
-        </div>
-        `
-    }
+            <div class="movie-details" id="${movie.id}">
+                <header>
+                    <img src = ${movie.poster} class = "movie-poster" alt = ${movie.title}/>
+                    <p>${movie.imdb_rating}</p>
+                    <h1 class="strong-text">${movie.title}</h1>
+                </header>
+                <article>
+                    <h2 class="strong-text">Sinopse:</h2>
+                    <p>${movie.overview}</p>
+                    <h2><span class="strong-text">Gênero:</span>${movie.genres}</h2>
+                    <h2><span class="strong-text">Lançamento</span>${movie.released_on}</h2>
+                    <h2 class="strong-text">Onde assistir:</h2>
+                    <p>${movie.sources}</p>
+                </article>
+            </div>
+        `}
     moviesList += "</div>"
     return moviesList
-}
-const redirectToMovie = (event) => {
-    console.log(event.target.parentElement.id)
-
-    window.localStorage.setItem("currentMovie", {
-     "id": event.target.parentElement.id
-    })
-
-    window.location.hash = '#movie-details'
 } 
