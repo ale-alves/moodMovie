@@ -30,7 +30,7 @@ A aplicação MoodMovie tem como intuito facilitar a escolha de filmes do usuár
 
 O planejamento e organização do projeto foi feito com método Kanban, utilizando o [Trello](https://trello.com/). 
 
-![Imagem!](./src/img/cores.png)
+![Imagem!](./src/img/trello.png)
 
 
 ## 3. Design Sprint
