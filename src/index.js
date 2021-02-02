@@ -7,34 +7,27 @@ const main = document.querySelector("#root");
 
 const init = () => {
 
-window.addEventListener("hashchange", async () => {
+window.addEventListener("hashchange", () => {
     main.innerHTML = ""
-    const queryParamInit = window.location.hash.indexOf('?')
-    const path = queryParamInit >= 0 ? window.location.hash.substring(0, queryParamInit) : window.location.hash
-    switch (path){
+    switch (window.location.hash){
         case "":
             main.appendChild(home());
             break;
-          case "#feeling":
-            main.appendChild(feeling());
+            case "#feeling":
+                main.appendChild(feeling());
             break;
-          case "#movie":
-            main.appendChild(await movie());
+            case "#movie":
+                main.appendChild(movie());
             break;
-          case "#movie-details":
-            console.log(window.localStorage.getItem("currentMovie"))
-            break;
-          default:
-            main.appendChild(home());
+            default:
+                    main.appendChild(home());
     }
-
 })
-
 }
 
 window.addEventListener("load", () => {
-
     main.appendChild(home());
     init()
-
  })
+
+ 
