@@ -2,15 +2,9 @@ export default () => {
   const container = document.createElement('div');
 
   const template = `
-    <header>
-        <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="list">
-                    <a class="title" href="./#home"><img class="logo-github" src="img/next.png" alt="logo github" /></a>
-                </li>
-        </nav>
+    
     </header>
-        <h2 class="title">Oi tudo bem? Como está seu humor hoje?</h2>
+        <h2 class="title-feeling">Oi tudo bem? Como está seu humor hoje?</h2>
         <a href="./#movie?genre=animation,comedy"> <button id="btn-stressed" class="btn-stressed">Estressade</button></a>
         <a href="./#movie?genre=fiction,thriller"> <button id="btn-inspired" class="btn-inspired" >Inspirade</button></a>
         <a href="./#movie?genre=come const stressedButton = container.querySelector('#btn-stressed');dy,drama"> <button id="btn-happy" class="btn-happy" >Feliz</button></a>
