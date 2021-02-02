@@ -1,7 +1,7 @@
-# MoodMovie
+<div align="center"><h1>MoodMovie</h1></div>
 
 <div align="center">
-<p>Cansada de procurar filmes né minha filha?</p> 
+<h3>Cansada de procurar filmes, né minha filha?</h3> 
 <img src="./src/img/meme.jpg" alt="Quadrinho de uma mulher envelhecendo por anos sem conseguir escolher um filme">
 </div>
 
@@ -21,7 +21,7 @@ Para o desenvolvimento utilizamos como estratégia pair programing, code review 
 
 ### Sobre 
 
-![Imagem!](./src/img/logo.png)
+![Imagem!](./src/img/favicon.png)
 
 A aplicação MoodMovie tem como intuito facilitar a escolha de filmes do usuário através do seu humor. 
 
@@ -68,9 +68,11 @@ Definimos as funcionalidades do nosso MVP, onde o usuário acessa a página de e
 
 ### Ideação
 
-Compartilhamos nossas ideias em rascunhos, nossos protótipos de baixa fidelidade. Onde definimos as funcionalidades da aplicação, gerando assim o fluxo do usuário.
+Compartilhamos nossas ideias em rascunhos, nossos protótipos de baixa fidelidade.
 
 ![Imagem!](./src/img/rascunhos.jpg) 
+
+ Onde definimos as funcionalidades da aplicação, gerando assim o fluxo do usuário.
 
 ![Imagem!](./src/img/fluxograma.png) 
 
@@ -78,7 +80,7 @@ Compartilhamos nossas ideias em rascunhos, nossos protótipos de baixa fidelidad
 ### Prototipagem
 
 Nessa etapa foi concretizado o desenvolvimento do desing da aplicação. 
-O processo criativo inicialmente foi inspirado pelo conceito de emoções, sinalizados pelos usuários durante as pesquisas, e sua relação com as cores, tendo como base o filme "Divertidamente". 
+O processo criativo inicialmente foi inspirado pelo conceito de emoções, sinalizados pelos usuários durante as pesquisas, e sua relação com as cores, tendo como base o filme ["Divertida Mente"](https://www.youtube.com/watch?v=ukQeR3zYncw&ab_channel=WaltDisneyStudiosBR). 
 Com isso, decidimos nossa paleta de cores:
 
 ![Imagem!](./src/img/cores.png)
@@ -106,11 +108,12 @@ Levando em consideração os feedbacks dos usuários, foram feitas as devidas al
 
 A aplicação foi desenvolvida como um [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica), utilizando a API [Netflix Roulette](https://apilist.fun/api/netflix-roulette), mediante disso foi realizada o Mock com uma seleção de informações.
 
-Durante o processo, mudanças foram adotadas para melhor desempenho da aplicação, no tempo possível para executa-las. A equipe optou por trazer as informações dos filmes junto aos resultados de indicações, tornando o acesso as informações mais rápida para o usuário.
+Durante o processo, mudanças foram adotadas para melhor desempenho da aplicação no tempo possível para executá-las. A equipe optou por trazer as informações dos filmes junto aos resultados das indicações, tornando o acesso as informações mais rápido para o usuário.
 
 ![Imagem!](gif da nossá pag)
 
-<b>E aí minha filha, como está seu humor hoje? Teste nossa aplicação [aqui]()</b>
+### E aí minha filha, como está seu humor hoje?  Teste nossa aplicação [aqui](https://github.com/ale-alve)
+
 
 ![Alt Text](https://media.giphy.com/media/HHuobGjtW5Cwg/giphy.gif)
 
