@@ -122,7 +122,7 @@
 .movie-details-stars {
     width:1em;
     height:1em;
-    margin-left: 1em;
+    margin-left: 10px;
 }
 
 .movie-details-img {
@@ -130,21 +130,23 @@
     max-height:20vh;
     width: auto;
     height: auto;
-    display:flex;
-    margin-left: 0.95em;
-    margin-top: 1em;
+    align-items: center;
+    margin-left: 2px;
 }
 
 .movie-details-title {
-    margin-top:8em;
-    
+    margin-top:0.20em;
+    word-break: break-word;
+    text-align: center;
 }
 
 .movie-details {
-    margin-top:3em;
     float:left;
-    margin:5px;
+    margin-top:35px;
+    margin-left:6%;
     align-items: center;
+    width:80px;
+    height:180px;
 }
 
   
@@ -179,17 +181,34 @@
     }
 
     .movie-details-img {
-        max-width:60vw;
-        max-height:40vh;
-        margin-left: 4.5em;
-        margin-top: 2em;
+        max-width:65vw;
+        max-height:35vh;
+        margin-left: 14px;
+    }
+    
+    .movie-details {
+        margin-top:40px;
+        margin-left:5.5%;
+        width:180px;
+        height:320px;
+    }
+
+    .movie-details-title {
+        margin-top:0.20em;
+        font-size: 20px;
     }
 
     .movie-details-stars {
-        width:1em;
-        height:1em;
-        margin-left: 4.5em;
+        width:1.5em;
+        height:1.5em;
+        margin-left: 10px;
     }
+
+    .movie-details-rating{
+        font-size:18px;
+    }
+
+  
 
 }
 
@@ -197,7 +216,7 @@
 @media (min-width: 760px) and (max-width: 768px){
     footer {
         width: 100vw;
-        margin-top: 8em;
+        margin-top:20em;
       }
 
       .btn-start {
@@ -213,13 +232,56 @@
 
     .movie-details-img {
         max-width:60vw;
-        max-height:40vh;
-        margin-left: 2em;
-        margin-top: 0.5em;
+        max-height:30vh;
+        margin-left: 14px;
+    }
+    
+    .movie-details {
+        margin-top:35px;
+        margin-left:7.1%;
+        width:180px;
+        height:280px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    
+    button {
+        font-size: 18px;
+    }
+   
+    footer {
+        width: 100vw;
+        margin-top: 30em;
+        font-size:18px;
+        margin-top:39em;
+      }
+    
+    
+    .movie-details-img {
+        margin-left: 8px;
+    }
+    
+    .movie-details {
+        margin-top:35px;
+        margin-left:4%;
+        width:280px;
+        height:480px;
+    }
+
+    .movie-details-title {
+        margin-top:0.20em;
+        font-size: 22px;
     }
 
     .movie-details-stars {
-        margin-left: 2em;
+        width:1.5em;
+        height:1.5em;
+        margin-left: 10px;
     }
 
+    .movie-details-rating{
+        font-size:18px;
+    }
 }
