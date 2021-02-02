@@ -22,16 +22,12 @@ window.addEventListener("hashchange", () => {
             default:
                     main.appendChild(home());
     }
-
-
-
 })
-
 }
 
 window.addEventListener("load", () => {
-
     main.appendChild(home());
     init()
-
  })
+
+ 
