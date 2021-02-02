@@ -1,10 +1,10 @@
 # MoodMovie
 
-![Imagem!](meme)
+<div align="center">
+<p>Cansada de procurar filmes né minha filha?</p> 
+<img src="./src/img/meme.jpg" alt="Quadrinho de uma mulher envelhecendo por anos sem conseguir escolher um filme">
+</div>
 
-Cansada de procurar bons filmes né minha filha? 
-
----
 ## Índice
 
 - [1. Introdução](#1-introdução)
@@ -16,12 +16,12 @@ Cansada de procurar bons filmes né minha filha?
 ---
 ## 1. Introdução
 
-A partir do projeto proposto pela Laboratória, o Midterm Hackathon. Desenvolvemos em equipe uma aplicação de entretenimento, através do consumo de API no prazo de dois dias. 
+A partir do projeto proposto pela [Laboratória](https://github.com/Laboratoria), o Midterm Hackathon. Desenvolvemos em equipe uma aplicação de entretenimento, através do consumo de API, no prazo de dois dias. 
 Para o desenvolvimento utilizamos como estratégia pair programing, code review e sub-divisão de tarefas.
 
 ### Sobre 
 
-![Imagem!](logo)
+![Imagem!](./src/img/logo.png)
 
 A aplicação MoodMovie tem como intuito facilitar a escolha de filmes do usuário através do seu humor. 
 
@@ -32,7 +32,7 @@ O planejamento e organização do projeto foi feito com método Kanban, utilizan
 
 ![Imagem!](./src/img/trello.png)
 
-
+---
 ## 3. Design Sprint
 
 Durante o processo de Design Sprint desenvolvemos o produto em 4 dias.
@@ -41,7 +41,7 @@ Durante o processo de Design Sprint desenvolvemos o produto em 4 dias.
 
 Realizamos um brandstorm e apartir disso criamos nossas protopersonas:
 
-![Imagem!](./src/img/personas) 
+![Imagem!](./src/img/personas.png) 
 
 Diante disso, foi feita a confirmação através de um formulário de pesquisa com os usuários. 
 Realizamos o benchmark, analisando possíveis concorrentes, identificando padrões, pontos positivos e negativos.
@@ -52,7 +52,7 @@ Utilizando os dados coletados e gerados na fase  de investigação e descoberta,
 
 ❌ Problema:
 
- <i>O usuário precisa economizar o tempo que ele gasta escolhendo um filme nas plataformas de streaming.</i>
+<i>O usuário precisa economizar o tempo que ele gasta escolhendo um filme nas plataformas de streaming.</i>
 
 Com isso elaboramos um novo formulário de pesquisa para revalidar as personas e mapear as soluções.
 
@@ -67,12 +67,12 @@ Baseado nisso, produzimos nosso Canvas.
 Definimos as funcionalidades do nosso MVP, onde o usuário acessa a página de entretenimento, no qual ele pode selecionar o seu humor e assim receber indicações de filmes. 
 
 ### Ideação
- 
+
 Compartilhamos nossas ideias em rascunhos, nossos protótipos de baixa fidelidade. Onde definimos as funcionalidades da aplicação, gerando assim o fluxo do usuário.
 
-![Imagem!](protótipos de baixa fidelidade) 
+![Imagem!](./src/img/rascunhos.jpg) 
 
-![Imagem!](.src/img/fluxograma.png) 
+![Imagem!](./src/img/fluxograma.png) 
 
 
 ### Prototipagem
@@ -85,7 +85,7 @@ Com isso, decidimos nossa paleta de cores:
 
 O protótipo foi criado com o [Figma](https://www.figma.com/) em mobile first, após pesquisa de cores e estilo.
 
-  ![Imagem!](./src/img/prototipo.png)
+![Imagem!](./src/img/prototipo.png)
 
 Durante a prototipagem foi tomada a decisão de linguagem inclusiva nas emoções, utilizando o sufixo "de". No qual, não emprega definição de gênero. 
 
@@ -106,11 +106,14 @@ Levando em consideração os feedbacks dos usuários, foram feitas as devidas al
 
 A aplicação foi desenvolvida como um [Single Page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica), utilizando a API [Netflix Roulette](https://apilist.fun/api/netflix-roulette), mediante disso foi realizada o Mock com uma seleção de informações.
 
-  ![Imagem!](gif da nossá pag)
+Durante o processo, mudanças foram adotadas para melhor desempenho da aplicação, no tempo possível para executa-las. A equipe optou por trazer as informações dos filmes junto aos resultados de indicações, tornando o acesso as informações mais rápida para o usuário.
+
+![Imagem!](gif da nossá pag)
 
 <b>E aí minha filha, como está seu humor hoje? Teste nossa aplicação [aqui]()</b>
 
-  ![Imagem!](http://gph.is/1elEEsp)
+![Alt Text](https://media.giphy.com/media/HHuobGjtW5Cwg/giphy.gif)
+
 
 ## 5. Desenvolvedoras
 
