@@ -11,7 +11,7 @@ Cansada de procurar bons filmes né minha filha?
 - [2. Planejamento e Organização](#2-planejamento-e-organização)
 - [3. Desing Sprint](#3-desing-sprint)
 - [4. Desenvolvimento](#4-desenvolvimento)
-- [5. Funcionamento](#5-funcionamento)
+- [5. Desenvolvedoras](#5-desenvolvedoras)
 
 ---
 ## 1. Introdução
@@ -30,7 +30,7 @@ A aplicação MoodMovie tem como intuito facilitar a escolha de filmes do usuár
 
 O planejamento e organização do projeto foi feito com método Kanban, utilizando o [Trello](https://trello.com/). 
 
-![Imagem!](TRELLO)
+![Imagem!](./src/img/cores.png)
 
 
 ## 3. Design Sprint
@@ -41,7 +41,7 @@ Durante o processo de Design Sprint desenvolvemos o produto em 4 dias.
 
 Realizamos um brandstorm e apartir disso criamos nossas protopersonas:
 
-![Imagem!](personas) 
+![Imagem!](./src/img/personas) 
 
 Diante disso, foi feita a confirmação através de um formulário de pesquisa com os usuários. 
 Realizamos o benchmark, analisando possíveis concorrentes, identificando padrões, pontos positivos e negativos.
@@ -72,7 +72,7 @@ Compartilhamos nossas ideias em rascunhos, nossos protótipos de baixa fidelidad
 
 ![Imagem!](protótipos de baixa fidelidade) 
 
-![Imagem!](floxograma) 
+![Imagem!](.src/img/fluxograma.png) 
 
 
 ### Prototipagem
@@ -81,11 +81,11 @@ Nessa etapa foi concretizado o desenvolvimento do desing da aplicação.
 O processo criativo inicialmente foi inspirado pelo conceito de emoções, sinalizados pelos usuários durante as pesquisas, e sua relação com as cores, tendo como base o filme "Divertidamente". 
 Com isso, decidimos nossa paleta de cores:
 
-![Imagem!](paleta de cores)
+![Imagem!](./src/img/cores.png)
 
 O protótipo foi criado com o [Figma](https://www.figma.com/) em mobile first, após pesquisa de cores e estilo.
 
-  ![Imagem!](prototipo-figma)
+  ![Imagem!](./src/img/prototipo.png)
 
 Durante a prototipagem foi tomada a decisão de linguagem inclusiva nas emoções, utilizando o sufixo "de". No qual, não emprega definição de gênero. 
 
@@ -110,7 +110,7 @@ A aplicação foi desenvolvida como um [Single Page Application (SPA)](https://p
 
 <b>E aí minha filha, como está seu humor hoje? Terste nossa aplicação [aqui]()</b>
 
-  ![Imagem!](git divertidamente/meme)
+  ![Imagem!](http://gph.is/1elEEsp)
 
 ## 5. Desenvolvedoras
 
