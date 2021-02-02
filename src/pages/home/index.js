@@ -1,9 +1,9 @@
 export default () => {
-  const container = document.createElement('div');
-  const template = `
-  <header>
-      <h1 class="logo">MoodMovie</h1>
-      <div class="logo-background">
+const container = document.createElement('div');
+const template = `
+<header>
+     <h1 class="logo">MoodMovie</h1>
+     <div class="logo-background">
           <span class="logo-background-red"></span>
           <span class="logo-background-orange"></span>
           <span class="logo-background-yellow"></span>
@@ -12,6 +12,7 @@ export default () => {
           <span class="logo-background-blue"></span>
           <span class="logo-background-purple"></span>
           <span class="logo-background-pink"></span>
+
       </div>
   </header>
  
@@ -28,6 +29,7 @@ export default () => {
       </footer>
   `;
   container.innerHTML = template;
+
 
 return container
 
