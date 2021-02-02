@@ -16,14 +16,5 @@ export default () => {
   `;
   container.innerHTML = template;
 
- 
-  const inspiredButton = container.querySelector('#btn-inspired');
-  const happyButton = container.querySelector('#btn-happy');
-  const boredButton = container.querySelector('#btn-bored');
-  const heartBrokenButton = container.querySelector('#btn-heart-broken');
-  const sadButton = container.querySelector('#btn-sad');
-  const sensitiveButton = container.querySelector('#btn-sensitive');
-  const inLoveButton = container.querySelector('#btn-sensitive');
-
   return container
 }
