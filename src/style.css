@@ -3,31 +3,19 @@
     padding: 0;
     box-sizing: 0;
 }
-.logo{
-    text-align: center;
-}
-.logo-next {
-    width:20px;
-    height:20px;
-    margin-top:2.4em;
-    margin-left:0.5em;
-}
 
-.title-home {
+.titulo {
         text-align: center;
-        margin:4em 1em 1em 1em;
-        font-size: 18px;
-        font-weight: bold;
-
+        margin-top:8em;
     }
   
   button {
       cursor: pointer;
       border: none;
-      text-transform: uppercase;
-      margin-top: 1.5em;
+      margin-top: 0.6em;
       align-items: center;
-      margin-left:32.5%;
+      margin-top: 2em;
+      margin-left: 8em;
       height: 2.6em;
   }
   
@@ -35,139 +23,78 @@
       background-color: #47EBEB;
       width: 35vw;
   }
-
   
   footer {
       width: 100vw;
-      margin-top: 13em;
-      text-align: center;
-      text-decoration: none;
+      margin-top: 10em;
+      padding: 0.5em;
+      text-align: justify;
     }
     
     footer a {
       cursor: pointer;
-      text-decoration: none;
     }
   
   .logo-github {
       width:1em;
       height:1em;
-     
   }
   
-  .btn-stressed {
+  .btn-estressade {
       background-color: #EB4747;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-inspired {
+  .btn-inspirade {
       background-color: #F28E45;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-happy {
+  .btn-feliz {
       background-color: #FBFE54;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-bored {
+  .btn-entediade {
       background-color: #47EB70;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-heartbroken {
+  .btn-cor-partido {
       background-color: #47EBEB;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-sad {
+  .btn-triste {
       background-color: #4770EB;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-sensitive {
+  .btn-sensivel {
       background-color: #9947EB;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
-  .btn-in-love {
+  .btn-apaixonade {
       background-color: #EB47C2;
       width: 55vw;
-      margin-left: 22.8%;
+      margin-left: 5em;
   }
   
   
-  .title-feeling{
+  .title{
       text-align: center;
-      margin-top:1em;
-      font-style: 18px;
-      font-weight: bold;
+      margin-top:2em;
   }
   
   .title-movies {
       text-align: center;
-      margin-top:1em;
-      font-size: 18px;
-      font-weight: bold;
+      margin-top:2em;
   }
-
-  
-@media(min-width:1000px){
-    .title-feeling {
-        margin-top:1em;
-        font-size: 25px; 
-    }
-    
-    .title-movies {
-        margin-top:1em;
-        font-size: 25px;
-    }
-
-    .title-home {
-        margin-top:6em;
-        font-size: 25px; 
-    }
-
-    footer {
-        width: 100vw;
-        margin-top: 15em;
-        text-align: center;
-        text-decoration: none;
-        
-      }
-
-    .btn-start {
-        margin-top:3em;
-        width: 35vw;
-        
-    }
-
-}
-
-
-@media (min-width: 760px) and (max-width: 768px){
-    footer {
-        width: 100vw;
-        margin-top: 8em;
-      }
-
-      .btn-start {
-        margin-top:4em;
-        width: 35vw;
-    }
-
-    .title-home {
-        margin-top:6em;
-        font-size: 25px;
-        
-    }
-
-}
-
