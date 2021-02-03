@@ -40,8 +40,10 @@ const showingMoviesList = (movies) => {
                 <article>
                     <h2 class="strong-text">Sinopse:</h2>
                     <p>${movie.overview}</p>
-                    <h2><span class="strong-text">Gênero:</span>${movie.genres}</h2>
-                    <h2><span class="strong-text">Lançamento</span>${movie.released_on}</h2>
+                    <h2 class="strong-text">Gênero:</h2>
+                    <p>${movie.genres}</p>
+                    <h2 class="strong-text">Lançamento:</h2>
+                    <p>${movie.released_on}</p>
                     <h2 class="strong-text">Onde assistir:</h2>
                     <p>${movie.sources}</p>
                 </article>
