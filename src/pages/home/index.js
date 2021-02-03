@@ -27,7 +27,4 @@ export default () => {
       </footer>
   `;
   container.innerHTML = template;
-
-return container
-
-}
+  
