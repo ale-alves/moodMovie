@@ -1,287 +1,354 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
 }
-.logo{
-    text-align: center;
+
+.logo {
+	text-align: center;
 }
 .logo-next {
-    width:20px;
-    height:20px;
-    margin-top:2.4em;
-    margin-left:0.5em;
+	width: 20px;
+	height: 20px;
+	margin-top: 2.4em;
+	margin-left: 0.5em;
 }
 
 .title-home {
-        text-align: center;
-        margin:4em 1em 1em 1em;
-        font-size: 18px;
-        font-weight: bold;
+	text-align: center;
+	margin: 4em 1em 1em 1em;
+	font-size: 18px;
+	font-weight: bold;
+}
 
-    }
-  
-  button {
-      cursor: pointer;
-      border: none;
-      text-transform: uppercase;
-      margin-top: 1.5em;
-      align-items: center;
-      margin-left:32.5%;
-      height: 2.6em;
-  }
-  
-  .btn-start {
-      background-color: #47EBEB;
-      width: 35vw;
-  }
+button {
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+	margin-top: 1.5em;
+	align-items: center;
+	margin-left: 32.5%;
+	height: 2.6em;
+}
 
-  
-  footer {
-      width: 100vw;
-      margin-top: 13em;
-      text-align: center;
-      text-decoration: none;
-    }
-    
-    footer a {
-      cursor: pointer;
-      text-decoration: none;
-    }
-  
-  .logo-github {
-      width:1em;
-      height:1em;
-     
-  }
-  
-  .btn-stressed {
-      background-color: #EB4747;
-      width: 55vw;
-      margin-left: 22.8%;
-      margin-top:3em;
-  }
-  
-  .btn-inspired {
-      background-color: #F28E45;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  .btn-happy {
-      background-color: #FBFE54;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  .btn-bored {
-      background-color: #47EB70;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  .btn-heartbroken {
-      background-color: #47EBEB;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  .btn-sad {
-      background-color: #4770EB;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  .btn-sensitive {
-      background-color: #9947EB;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  .btn-in-love {
-      background-color: #EB47C2;
-      width: 55vw;
-      margin-left: 22.8%;
-  }
-  
-  
-  .title-feeling{
-      text-align: center;
-      margin-top:1em;
-      font-size: 18px;
-      font-weight: bold;
-  }
-  
-  .title-movies {
-      text-align: center;
-      margin:1em;
-      font-size: 18px;
-      font-weight: bold;
-  }
+.btn-start {
+	background-color: #47ebeb;
+	width: 35vw;
+}
+
+footer {
+	width: 100vw;
+	margin-top: 13em;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.logo-github {
+	width: 1em;
+	height: 1em;
+}
+
+.btn-stressed {
+	background-color: #eb4747;
+	width: 55vw;
+	margin-left: 22.8%;
+	margin-top: 3em;
+}
+
+.btn-inspired {
+	background-color: #f28e45;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.btn-happy {
+	background-color: #fbfe54;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.btn-bored {
+	background-color: #47eb70;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.btn-heartbroken {
+	background-color: #47ebeb;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.btn-sad {
+	background-color: #4770eb;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.btn-sensitive {
+	background-color: #9947eb;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.btn-in-love {
+	background-color: #eb47c2;
+	width: 55vw;
+	margin-left: 22.8%;
+}
+
+.title-feeling {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.title-movies {
+	text-align: center;
+	margin: 1em;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.movie-poster {
+	max-width: 60vw;
+	max-height: 30vh;
+	width: auto;
+	height: auto;
+}
 
 .movie-details-stars {
-    width:1em;
-    height:1em;
-    margin-left: 10px;
+	width: 1em;
+	height: 1em;
+	margin-left: 5px;
 }
 
-.movie-details-img {
-    max-width:40vw;
-    max-height:20vh;
-    width: auto;
-    height: auto;
-    align-items: center;
-    margin-left: 2px;
+.movie-strong-text {
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: left;
 }
 
-.movie-details-title {
-    margin-top:0.20em;
-    word-break: break-word;
-    text-align: center;
+.strong-text {
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.movie-strong-text__gender {
+	font-size: 16px;
+}
+
+.movie-strong-text__released {
+	font-size: 16px;
+}
+
+.movie-details-end {
+	margin-left: 1em;
 }
 
 .movie-details {
-    float:left;
-    margin-top:35px;
-    margin-left:6%;
-    align-items: center;
-    width:80px;
-    height:180px;
+	float: left;
+	margin-top: 34px;
+	margin-left: 2.5%;
+	text-align: justify;
+	align-items: center;
+	width: 300px;
+	height: 280px;
+	display: flex;
 }
 
-  
-@media(min-width:1000px){
-    .title-feeling {
-        margin-top:1em;
-        font-size: 25px; 
-    }
-    
-    .title-movies {
-        margin-top:1em;
-        font-size: 25px;
-    }
+@media (min-width: 1000px) {
+	.title-feeling {
+		margin-top: 1em;
+		font-size: 25px;
+	}
 
-    .title-home {
-        margin-top:6em;
-        font-size: 25px; 
-    }
+	.title-movies {
+		margin-top: 1em;
+		font-size: 25px;
+	}
 
-    footer {
-        width: 100vw;
-        margin-top: 15em;
-        text-align: center;
-        text-decoration: none;
-        
-      }
+	.title-home {
+		margin-top: 6em;
+		font-size: 25px;
+	}
 
-    .btn-start {
-        margin-top:3em;
-        width: 35vw;
-        
-    }
+	footer {
+		width: 100vw;
+		margin-top: 15em;
+		text-align: center;
+		text-decoration: none;
+	}
 
-    .movie-details-img {
-        max-width:65vw;
-        max-height:35vh;
-        margin-left: 14px;
-    }
-    
-    .movie-details {
-        margin-top:40px;
-        margin-left:5.5%;
-        width:180px;
-        height:320px;
-    }
+	.btn-start {
+		margin-top: 3em;
+		width: 35vw;
+	}
 
-    .movie-details-title {
-        margin-top:0.20em;
-        font-size: 20px;
-    }
+	.movie-poster {
+		max-width: 65vw;
+		max-height: 35vh;
+		margin-left: 14px;
+	}
 
-    .movie-details-stars {
-        width:1.5em;
-        height:1.5em;
-        margin-left: 10px;
-    }
+	.movie-poster {
+		max-width: 70vw;
+		max-height: 40vh;
+		margin-left: 2px;
+	}
 
-    .movie-details-rating{
-        font-size:18px;
-    }
+	.movie-details-stars {
+		width: 1em;
+		height: 1em;
+		margin-left: 10px;
+	}
 
-  
+	.movie-strong-text {
+		font-size: 16px;
+	}
 
+	.strong-text {
+		font-size: 14px;
+	}
+
+	.movie-strong-text__gender {
+		font-size: 16px;
+	}
+
+	.movie-strong-text__released {
+		font-size: 16px;
+	}
+
+	.movie-details-end {
+		margin-left: 1em;
+	}
+
+	.movie-details {
+		float: left;
+		margin-top: 34px;
+		margin-left: 2.5%;
+		align-items: center;
+		width: 400px;
+		height: 310px;
+		display: flex;
+	}
 }
 
+@media (min-width: 760px) and (max-width: 768px) {
+	footer {
+		width: 100vw;
+		margin-top: 20em;
+	}
 
-@media (min-width: 760px) and (max-width: 768px){
-    footer {
-        width: 100vw;
-        margin-top:20em;
-      }
+	.btn-start {
+		margin-top: 4em;
+		width: 35vw;
+	}
 
-      .btn-start {
-        margin-top:4em;
-        width: 35vw;
-    }
+	.title-home {
+		margin-top: 6em;
+		font-size: 25px;
+	}
 
-    .title-home {
-        margin-top:6em;
-        font-size: 25px;
-        
-    }
+	.movie-poster {
+		max-width: 60vw;
+		max-height: 30vh;
+		margin-left: 2px;
+	}
 
-    .movie-details-img {
-        max-width:60vw;
-        max-height:30vh;
-        margin-left: 14px;
-    }
-    
-    .movie-details {
-        margin-top:35px;
-        margin-left:7.1%;
-        width:180px;
-        height:280px;
-    }
+	.movie-details-stars {
+		width: 1em;
+		height: 1em;
+		margin-left: 10px;
+	}
 
+	.movie-strong-text {
+		font-size: 16px;
+	}
+
+	.strong-text {
+		font-size: 16px;
+	}
+
+	.movie-strong-text__gender {
+		font-size: 16px;
+	}
+
+	.movie-strong-text__released {
+		font-size: 16px;
+	}
+
+	.movie-details-end {
+		margin-left: 1em;
+	}
+
+	.movie-strong-text__overview {
+		font-size: 18px;
+	}
+
+	.movie-details {
+		float: left;
+		margin-top: 34px;
+		margin-left: 2.5%;
+		align-items: center;
+		width: 360px;
+		height: 360px;
+		display: flex;
+	}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
-    
-    button {
-        font-size: 18px;
-    }
-   
-    footer {
-        width: 100vw;
-        margin-top: 30em;
-        font-size:18px;
-        margin-top:39em;
-      }
-    
-    
-    .movie-details-img {
-        margin-left: 8px;
-    }
-    
-    .movie-details {
-        margin-top:35px;
-        margin-left:4%;
-        width:280px;
-        height:480px;
-    }
-
-    .movie-details-title {
-        margin-top:0.20em;
-        font-size: 22px;
-    }
-
-    .movie-details-stars {
-        width:1.5em;
-        height:1.5em;
-        margin-left: 10px;
-    }
-
-    .movie-details-rating{
-        font-size:18px;
-    }
+	button {
+		font-size: 18px;
+	}
+	footer {
+		width: 100vw;
+		margin-top: 30em;
+		font-size: 18px;
+		margin-top: 39em;
+	}
+	.movie-poster {
+		max-width: 60vw;
+		max-height: 30vh;
+		margin-left: 2px;
+	}
+	.movie-details-stars {
+		width: 1em;
+		height: 1em;
+		margin-left: 10px;
+	}
+	.movie-strong-text {
+		font-size: 18px;
+	}
+	.strong-text {
+		font-size: 16px;
+	}
+	.movie-strong-text__gender {
+		font-size: 16px;
+	}
+	.movie-strong-text__released {
+		font-size: 16px;
+	}
+	.movie-details-end {
+		margin-left: 1em;
+		margin-bottom: 5em;
+	}
+	.movie-strong-text__overview {
+		font-size: 18px;
+	}
+	.movie-details {
+		float: left;
+		margin-top: 30px;
+		margin-left: 2.5%;
+		align-items: center;
+		width: 460px;
+		height: 460px;
+		display: flex;
+	}
 }
