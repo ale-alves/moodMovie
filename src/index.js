@@ -4,7 +4,6 @@ import movie from "./pages/movie/index.js"
 
 const main = document.querySelector("#root");
 
-
 const init = () => {
 
 window.addEventListener("hashchange", async () => {
@@ -20,9 +19,6 @@ window.addEventListener("hashchange", async () => {
             break;
           case "#movie":
             main.appendChild(await movie());
-            break;
-          case "#movie-details":
-            console.log(window.localStorage.getItem("currentMovie"))
             break;
           default:
             main.appendChild(home());
