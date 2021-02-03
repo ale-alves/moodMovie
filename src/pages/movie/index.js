@@ -35,6 +35,8 @@ const showingMoviesList = (movies) => {
                     <p>${movie.overview}</p>
                     <h2 class="strong-text">Gênero:</h2>
                     <p>${movie.genres}</p>
+                    <h2 class="strong-text">Duração:</h2>
+                    <p>${movie.time}</p>
                     <h2 class="strong-text">Lançamento:</h2>
                     <p>${movie.released_on}</p>
                     <h2 class="strong-text">Onde assistir:</h2>
