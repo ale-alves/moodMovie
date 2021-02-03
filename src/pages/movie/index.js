@@ -7,14 +7,7 @@ export default async () => {
     
     container.innerHTML = `
         <header>
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="list">
-                        <a class="title" href="./#home"><img class="logo-github" src="img/next.png" alt="logo github"></a>
-                    </li>
-            <div>
-                <h2 class="title-movies">Achamos que vai gostar dessa seleção que fizemos para você <img class="logo-github"    src="img/favourite.png" alt="logo github"></h2>
-            </div>
+            <h2 class="title-movies">Achamos que vai gostar dessa seleção que fizemos para você <img class="logo-github" src="img/favourite.png" alt="logo github"></h2>
         </header>
     `;
 
@@ -33,7 +26,7 @@ const showingMoviesList = (movies) => {
         moviesList += `
             <div class="movie-details" id="${movie.id}">
                 <header>
-                    <img src = ${movie.poster} class = "movie-poster" alt = ${movie.title}/>
+                    <img src = ${movie.poster} class ="movie-poster" alt = ${movie.title}/>
                     <p>${movie.imdb_rating}</p>
                     <h1 class="strong-text">${movie.title}</h1>
                 </header>
